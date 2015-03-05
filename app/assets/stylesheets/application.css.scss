@@ -1,8 +1,9 @@
-
+ @import "bootstrap-sprockets";
  @import 'bootstrap';
  @import 'bootstrap/theme';
  @import 'chosen';
  @import 'image-select';
+
 
  .alert-notice {
   @extend .alert-success;
@@ -18,5 +19,7 @@
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
+body { padding-top: 50px; }
 
 
